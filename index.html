@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>فوازير بلبول 🌙 - Leaderboard</title>
   <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400&display=swap" rel="stylesheet">
-  <style>
+    <style>
     body {
       font-family: 'Cairo', sans-serif;
       background: linear-gradient(135deg, #2c3e50, #34495e);
@@ -68,6 +68,22 @@
     tr:hover {
       background-color: rgba(241, 196, 15, 0.3);
       transition: all 0.3s ease-in-out;
+    }
+
+    /* Glowing Effect for Top 3 Players */
+    .glow {
+      text-shadow: 0 0 8px #f39c12, 0 0 15px #f39c12, 0 0 20px #f1c40f;
+      font-weight: bold;
+      animation: glow 1.5s infinite alternate;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 8px #f39c12, 0 0 15px #f39c12;
+      }
+      to {
+        text-shadow: 0 0 12px #f1c40f, 0 0 25px #f39c12;
+      }
     }
 
     .footer {
@@ -134,34 +150,34 @@
       <th>النقاط الإجمالية</th>
     </tr>
     <tr>
-      <td class="glow-effect">0</td>
-      <td class="glow-effect">عمر خضر</td>
-      <td class="glow-effect">0</td>
+      <td class="glow">0</td>
+      <td class="glow">عمر خضر</td>
+      <td class="glow">0</td>
     </tr>
     <tr>
-      <td class="glow-effect">0</td>
-      <td class="glow-effect">عمار</td>
-      <td class="glow-effect">0</td>
+      <td class="glow">0</td>
+      <td class="glow">عمار</td>
+      <td class="glow">0</td>
     </tr>
     <tr>
-      <td class="glow-effect">0</td>
-      <td class="glow-effect">عمر موسى</td>
-      <td class="glow-effect">0</td>
+      <td class="glow">0</td>
+      <td class="glow">عمر موسى</td>
+      <td class="glow">0</td>
     </tr>
     <tr>
-      <td class="glow-effect">0</td>
-      <td class="glow-effect">رضوان</td>
-      <td class="glow-effect">0</td>
+      <td class="glow">0</td>
+      <td class="glow">رضوان</td>
+      <td class="glow">0</td>
     </tr>
     <tr>
-      <td class="glow-effect">0</td>
-      <td class="glow-effect">أسامة</td>
-      <td class="glow-effect">0</td>
+      <td class="glow">0</td>
+      <td class="glow">أسامة</td>
+      <td class="glow">0</td>
     </tr>
     <tr>
-      <td class="glow-effect">0</td>
-      <td class="glow-effect">يحيى</td>
-      <td class="glow-effect">0</td>
+      <td class="glow">0</td>
+      <td class="glow">يحيى</td>
+      <td class="glow">0</td>
     </tr>
   </table>
   </div>
