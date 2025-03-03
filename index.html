@@ -70,7 +70,7 @@
       transition: all 0.3s ease-in-out;
     }
 
-    /* Glowing Effect for Top 3 Players */
+    /* Glowing Effect for 1st Place */
     .glow {
       text-shadow: 0 0 8px #f39c12, 0 0 15px #f39c12, 0 0 20px #f1c40f;
       font-weight: bold;
@@ -104,6 +104,14 @@
 
     .footer a:hover {
       text-decoration: underline;
+    }
+
+    /* Center Group Names */
+    .group-title {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 20px;
     }
 
     /* Responsive Design */
@@ -143,43 +151,53 @@
   <h2 style="text-align: center; font-size: 36px;">جدول المتصدرين</h2>
 
   <div class="leaderboard-container">
+    <h3 class="group-title">المجموعة (أ)</h3>
     <table class="leaderboard-table">
-    <tr>
-      <th>المركز</th>
-      <th>اسم المتسابق</th>
-      <th>النقاط الإجمالية</th>
-    </tr>
-    <tr>
-      <td class="glow">0</td>
-      <td class="glow">عمر خضر</td>
-      <td class="glow">0</td>
-    </tr>
-    <tr>
-      <td class="glow">0</td>
-      <td class="glow">عمار</td>
-      <td class="glow">0</td>
-    </tr>
-    <tr>
-      <td class="glow">0</td>
-      <td class="glow">عمر موسى</td>
-      <td class="glow">0</td>
-    </tr>
-    <tr>
-      <td class="glow">0</td>
-      <td class="glow">رضوان</td>
-      <td class="glow">0</td>
-    </tr>
-    <tr>
-      <td class="glow">0</td>
-      <td class="glow">أسامة</td>
-      <td class="glow">0</td>
-    </tr>
-    <tr>
-      <td class="glow">0</td>
-      <td class="glow">يحيى</td>
-      <td class="glow">0</td>
-    </tr>
-  </table>
+      <tr>
+        <th>المركز</th>
+        <th>اسم المتسابق</th>
+        <th>النقاط الإجمالية</th>
+      </tr>
+      <tr>
+        <td class="glow">1</td>
+        <td class="glow">👑 عمر موسى</td>
+        <td class="glow">34</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>عمار</td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>رضوان</td>
+        <td>0</td>
+      </tr>
+    </table>
+
+    <h3 class="group-title">المجموعة (ب)</h3>
+    <table class="leaderboard-table">
+      <tr>
+        <th>المركز</th>
+        <th>اسم المتسابق</th>
+        <th>النقاط الإجمالية</th>
+      </tr>
+      <tr>
+        <td class="glow">1</td>
+        <td class="glow">عمر خضر</td>
+        <td class="glow">0</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>أسامة</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>يحيى</td>
+        <td>0</td>
+      </tr>
+    </table>
   </div>
   
   <div class="footer">
